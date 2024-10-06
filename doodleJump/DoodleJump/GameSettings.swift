@@ -28,3 +28,16 @@ struct GameSettings {
                      deceleratioinRate: 0.98)
     }
 }
+
+enum PlatformType {
+    case staticPlatform
+    case movingPlatform
+    case disappearingPlatform
+}
+
+struct Platform {
+    var positionY: Double
+    var positionX: Double
+    var type: PlatformType
+    var isVisible = true
+}

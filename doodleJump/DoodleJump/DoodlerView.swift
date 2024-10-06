@@ -10,10 +10,9 @@ import SwiftUI
 struct DoodlerView: View {
     let height: Double
     var body: some View {
-        Circle()
-            .frame(height: height)
-            .foregroundColor(.yellow)
-            .overlay(Circle().stroke(Color.black, lineWidth: 2))
+        Image(.doodler)
+            .resizable()
+            .frame(width: height, height: height)
     }
 }
 

@@ -1,10 +1,9 @@
 //
-//  ResultView.swift
+//  PlatformView.swift
 //  doodleJump
 //
 //  Created by Starfighter Dollie on 9/30/24.
 //
-
 import SwiftUI
 
 struct ResultView: View {
@@ -20,7 +19,7 @@ struct ResultView: View {
                 .font(.title)
             Text("BEST: \(highScore)")
                 .padding()
-            Text("RESET", action: resetAction)
+            Button("RESET", action: resetAction)
                 .padding()
                 .background(.blue)
                 .foregroundStyle(.white)
