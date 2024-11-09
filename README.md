@@ -1,2 +1,2 @@
 # doodleJump
-Doodle jump for IOs
+Doodle jump for iOS
